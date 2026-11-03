@@ -1,5 +1,5 @@
 body { 
-    background-color: red;
+    background-color: rgb(64, 188, 226);
     font-size: 16px;
 }
 
@@ -14,6 +14,15 @@ body {
     display: flex;
     justify-content: center;
     gap: 30%;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: end;
+    margin-left: 30px;
+    font-size: 24px;
+    
 }
 
 #titulo {
@@ -51,7 +60,7 @@ button{
 footer{
      position: fixed;
      bottom: 0;
-     background-color: yellow;
+     background-color: rgb(51, 8, 243);
      font-size: 30px;
      width: 100%;
      text-align: center;
