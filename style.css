@@ -13,10 +13,10 @@ body {
     text-align: center;
 }
 
+/* Menu posicionado abaixo do título, sem fundo e alinhado à direita */
 .menu {
-    background-color: #222;
-    padding: 10px;
-    text-align: center;
+    text-align: right;
+    padding: 10px 40px;
 }
 
 .menu ul {
@@ -27,7 +27,7 @@ body {
 
 .menu li {
     display: inline-block;
-    margin: 0 15px;
+    margin-left: 20px;
 }
 
 .menu li a {
@@ -37,8 +37,9 @@ body {
     font-weight: bold;
 }
 
+/* Remove a alteração de cor ao passar o mouse */
 .menu li a:hover {
-    color: rgb(255, 0, 132);
+    color: aliceblue;
 }
 
 #titulo {
