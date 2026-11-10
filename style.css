@@ -13,7 +13,6 @@ body {
     text-align: center;
 }
 
-/* Menu posicionado abaixo do título, sem fundo e alinhado à direita */
 .menu {
     text-align: right;
     padding: 10px 40px;
@@ -37,7 +36,7 @@ body {
     font-weight: bold;
 }
 
-/* Remove a alteração de cor ao passar o mouse */
+
 .menu li a:hover {
     color: aliceblue;
 }
