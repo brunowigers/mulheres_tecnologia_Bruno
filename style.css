@@ -1,67 +1,83 @@
 body { 
     background-color: rgb(64, 188, 226);
     font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #111;
+    padding-bottom: 120px;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: black;
     color: whitesmoke;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 22px;
     padding: 20px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 30%;
 }
 
-.menu ul a{
+.menu {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu li a {
     text-decoration: none;
     color: aliceblue;
-    text-align: end;
-    margin-left: 30px;
-    font-size: 24px;
-    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: rgb(255, 0, 132);
 }
 
 #titulo {
-
+    font-size: 28px;
+    font-weight: bold;
 }
 
 p {
-    
+    margin: 15px 20%;
+    line-height: 1.5;
+    font-size: 18px;
 }
 
 .imgcentro {
-
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
 }
 
-
-ul{
-    font-size: 16px;
-}
-
-li{
-    display: inline-block;
-   
-}
-
-li a{
-    font-size: 50px;
-
-}
-
-button{
+button {
     font-size: 16px;
     color: rgb(255, 0, 132);
 }
 
-footer{
-     position: fixed;
-     bottom: 0;
-     background-color: rgb(51, 8, 243);
-     font-size: 30px;
-     width: 100%;
-     text-align: center;
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(51, 8, 243);
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
 }
